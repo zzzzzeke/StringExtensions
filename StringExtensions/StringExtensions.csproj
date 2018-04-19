@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>zzzzzeke.Extensions</RootNamespace>
+    <PackageId>zzzzzeke.StringExtensions</PackageId>
+    <Authors>Andrew Zimanske</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/zzzzzeke/StringExtensions</PackageProjectUrl>
+    <Description>Helpful extensions to the System.String class</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.2" />
+  </ItemGroup>
 </Project>
