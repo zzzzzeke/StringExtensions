@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace zzzzzeke.Extensions
 {
@@ -13,6 +14,14 @@ namespace zzzzzeke.Extensions
                 throw new ArgumentNullException(nameof(value));
 
             return source.IndexOf(value, stringComparison) >= 0;
+        }
+
+        public static bool IsEmailAddress(this string source)
+        {
+            if (source == null)
+                throw new ArgumentNullException(nameof(source));
+            
+            return new EmailAddressAttribute().IsValid(source);
         }
     }
 }
