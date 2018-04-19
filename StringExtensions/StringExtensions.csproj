@@ -8,6 +8,7 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageProjectUrl>https://github.com/zzzzzeke/StringExtensions</PackageProjectUrl>
     <Description>Helpful extensions to the System.String class</Description>
+    <PackageVersion>1.0.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
